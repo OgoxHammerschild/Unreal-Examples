@@ -47,7 +47,7 @@ UFUNCTION(BlueprintPure, Category = "Data")
   void GetData(float & range, FString & name, int32 & level);
 ```
 
-![Image pure](/images/pure.png)
+![Image pure](/docs/images/pure.png)
 
 <a name="UPARAM"/>  
 
