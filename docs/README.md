@@ -47,7 +47,7 @@ UFUNCTION(BlueprintPure, Category = "Data")
   void GetData(float & range, FString & name, int32 & level);
 ```
 
-![pure](https://ogoxhammerschild.github.io/Unreal-Examples/docs/images/pure.JPG)
+![Image pure](/images/pure.JPG)
 
 <a name="UPARAM"/>  
 
