@@ -193,7 +193,8 @@ bool AMyClass::DoesPlayerHaveItem(AItem* item, EHasItem & Has)
 
 Further readings:    
 
-* [Back to Main Page](https://ogoxhammerschild.github.io/)    
+* [Dynamic Delegate](https://ogoxhammerschild.github.io/)   
+* [Component System](https://ogoxhammerschild.github.io/#Component_System)    
 * [CollisionManager for the MonoGame-Framework (C#)](https://ogoxhammerschild.github.io/Collision/)    
 
 ***    
