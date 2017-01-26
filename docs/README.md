@@ -47,6 +47,8 @@ UFUNCTION(BlueprintPure, Category = "Data")
   void GetData(float & range, FString & name, int32 & level);
 ```
 
+#### Result:
+
 ![Image pure](https://raw.githubusercontent.com/OgoxHammerschild/Unreal-Examples/master/docs/images/pure.png)
 
 <a name="UPARAM"/>  
@@ -63,6 +65,8 @@ UFUNCTION(BlueprintPure, Category = "Data")
     UPARAM(DisplayName = "Actor Name") FString & name, 
     UPARAM(DisplayName = "Level") int32 & lvl);
 ```
+
+#### Result:
 
 ![param](https://raw.githubusercontent.com/OgoxHammerschild/Unreal-Examples/master/docs/images/param.png)
 
@@ -96,6 +100,8 @@ UFUNCTION(BlueprintNativeEvent, Category = "Event", meta = (DisplayName = "OnSho
     UE_LOG(LogTemp, Warning, TEXT("Call to native body of OnDestroy");
   }
 ```
+
+#### Result:
 
 ![events](https://raw.githubusercontent.com/OgoxHammerschild/Unreal-Examples/master/docs/images/events.png)
 
@@ -167,5 +173,7 @@ bool AMyClass::DoesPlayerHaveItem(AItem* item, EHasItem & Has)
     return false;
 }
 ```
+
+#### Result:
 
 ![execs](https://raw.githubusercontent.com/OgoxHammerschild/Unreal-Examples/master/docs/images/execs.png)
