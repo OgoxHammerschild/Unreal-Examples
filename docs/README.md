@@ -1,7 +1,7 @@
 # Unreal-Examples
 
 ### UE4 code examples
-***
+***   
 
 ## Content
 
@@ -11,6 +11,9 @@
 		* [UPARAM](#UPARAM)   
 		* [BlueprintNativeEvent vs BlueprintImplementableEvent](#BlueprintNativeEvent_vs_BlueprintImplementableEvent)   
 		* [Multiple execution pins](#Multiple_execution_pins)   
+
+
+***   
 
 
 <a name="Unreal_Examples"/>  
@@ -70,6 +73,9 @@ UFUNCTION(BlueprintPure, Category = "Data")
 
 ![param](https://raw.githubusercontent.com/OgoxHammerschild/Unreal-Examples/master/docs/images/param.png)
 
+
+***   
+
 <a name="BlueprintNativeEvent_vs_BlueprintImplementableEvent"/>  
 
 ### BlueprintNativeEvent vs BlueprintImplementableEvent
@@ -104,6 +110,9 @@ UFUNCTION(BlueprintNativeEvent, Category = "Event", meta = (DisplayName = "OnSho
 #### Result:
 
 ![events](https://raw.githubusercontent.com/OgoxHammerschild/Unreal-Examples/master/docs/images/events.png)
+
+
+***   
 
 <a name="Multiple_execution_pins"/>  
 
