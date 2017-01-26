@@ -64,7 +64,7 @@ UFUNCTION(BlueprintPure, Category = "Data")
     UPARAM(DisplayName = "Level") int32 & lvl);
 ```
 
-![param](https://github.com/OgoxHammerschild/Unreal-Examples/blob/master/docs/images/param.jpg)
+![param](/docs/images/param.png)
 
 <a name="BlueprintNativeEvent_vs_BlueprintImplementableEvent"/>  
 
@@ -97,7 +97,7 @@ UFUNCTION(BlueprintNativeEvent, Category = "Event", meta = (DisplayName = "OnSho
   }
 ```
 
-![events](https://github.com/OgoxHammerschild/Unreal-Examples/blob/master/docs/images/events.jpg)
+![events](/docs/images/events.png)
 
 <a name="Multiple_execution_pins"/>  
 
@@ -168,4 +168,4 @@ bool AMyClass::DoesPlayerHaveItem(AItem* item, EHasItem & Has)
 }
 ```
 
-![execs](https://github.com/OgoxHammerschild/Unreal-Examples/blob/master/docs/images/execs.jpg)
+![execs](/docs/images/execs.png)
