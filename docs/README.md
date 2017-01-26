@@ -47,7 +47,7 @@ UFUNCTION(BlueprintPure, Category = "Data")
   void GetData(float & range, FString & name, int32 & level);
 ```
 
-![pure](https://ogoxhammerschild.github.io/Unreal-Examples/docs/images/pure.jpg)
+![pure](https://github.com/OgoxHammerschild/Unreal-Examples/blob/master/docs/images/pure.JPG)
 
 <a name="UPARAM"/>  
 
@@ -64,7 +64,7 @@ UFUNCTION(BlueprintPure, Category = "Data")
     UPARAM(DisplayName = "Level") int32 & lvl);
 ```
 
-![param](/images/param.jpg)
+![param](https://github.com/OgoxHammerschild/Unreal-Examples/blob/master/docs/images/param.jpg)
 
 <a name="BlueprintNativeEvent_vs_BlueprintImplementableEvent"/>  
 
@@ -97,7 +97,7 @@ UFUNCTION(BlueprintNativeEvent, Category = "Event", meta = (DisplayName = "OnSho
   }
 ```
 
-![events](/images/events.jpg)
+![events](https://github.com/OgoxHammerschild/Unreal-Examples/blob/master/docs/images/events.jpg)
 
 <a name="Multiple_execution_pins"/>  
 
@@ -168,4 +168,4 @@ bool AMyClass::DoesPlayerHaveItem(AItem* item, EHasItem & Has)
 }
 ```
 
-![execs](/images/execs.jpg)
+![execs](https://github.com/OgoxHammerschild/Unreal-Examples/blob/master/docs/images/execs.jpg)
