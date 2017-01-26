@@ -161,9 +161,9 @@ void AMyClass::MyOwnBranch(bool const& condition, EBranch & Branch)
    
 bool AMyClass::DoesPlayerHaveItem(AItem* item, EHasItem & Has)
 {
-    for (auto& slot : Inventory)
+    for (auto& inventoryItem : Inventory)
     {
-        if(slot == item)
+        if(inventoryItem == item)
         {
             Has = EHasItem::Has;
             return true;
