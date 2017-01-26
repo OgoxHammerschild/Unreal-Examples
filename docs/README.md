@@ -1,3 +1,5 @@
+[Back to Main Page](https://ogoxhammerschild.github.io/)    
+
 # Unreal-Examples
 
 ### UE4 code examples
@@ -186,3 +188,12 @@ bool AMyClass::DoesPlayerHaveItem(AItem* item, EHasItem & Has)
 #### Result:
 
 ![execs](https://raw.githubusercontent.com/OgoxHammerschild/Unreal-Examples/master/docs/images/execs.png)
+
+***    
+
+Further readings:    
+
+* [Back to Main Page](https://ogoxhammerschild.github.io/)    
+* [CollisionManager for the MonoGame-Framework (C#)](https://ogoxhammerschild.github.io/Collision/)    
+
+***    
