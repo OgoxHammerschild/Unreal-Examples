@@ -58,7 +58,7 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Data")
 		void GetData(
 			UPARAM(DisplayName = "Range") float & rng,
-			UPARAM(DisplayName = "Name") FString & name,
+			UPARAM(DisplayName = "Actor Name") FString & name,
 			UPARAM(DisplayName = "Level") int32 & lvl);
 
 
