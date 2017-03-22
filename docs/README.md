@@ -21,6 +21,7 @@
 <a name="Unreal_Examples"/>  
 
 # Unreal Examples    
+The following examples will demonstrate some basic functionalities to expose functions and variables to blueprints. The resulting blueprint nodes can then be used by other members of the team like e.g. designers in order to create game logic on top of the code created by programmers.   
 ***  
 
 <a name="UFUNCTION_Specifiers"/>  
