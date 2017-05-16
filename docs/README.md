@@ -195,6 +195,7 @@ bool AMyClass::DoesPlayerHaveItem(AItem* item, EHasItem & Has)
 
 Further readings:    
 
+* [Etos Videos](https://ogoxhammerschild.github.io/Etos/)    
 * [Dynamic Delegate (C++)](https://ogoxhammerschild.github.io/)   
 * [Component System (C++)](https://ogoxhammerschild.github.io/#Component_System)    
 * [CollisionManager for the MonoGame-Framework (C#)](https://ogoxhammerschild.github.io/Collision/)    
